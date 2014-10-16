@@ -1,5 +1,5 @@
 body {
-  background: url("http://ak.picdn.net/shutterstock/videos/294625/preview/stock-footage-disco-ball-background.jpg") ;
+  background: url("disco.jpg") ;
   background-size: 100%;
 }
 
@@ -12,4 +12,24 @@ body {
 .text {
   margin-top: 250px;
   color: #819FF7;
+}
+
+.links {
+  position: absolute;
+  bottom: 50px;
+  margin-left: 50px;
+}
+
+.link {
+  margin-left: 50px;
+  font-size: 16pt;
+  font-family: helvetica;
+  text-decoration: none;
+  color: #819FF7;
+  opacity: 0.5;
+}
+
+.link:hover {
+  color: #819FF7;
+  opacity: 1;
 }
